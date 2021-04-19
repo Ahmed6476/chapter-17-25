@@ -182,3 +182,66 @@
 //     }
 // }
 // document.write("Result :" + text);
+
+// Answer no 13 
+
+// var ins = prompt("username")
+// var a = ins.indexOf("!")
+// var b = ins.charAt(a)
+// var c = ins.indexOf(",")
+// var d = ins.charAt(c)
+// var e = ins.indexOf(".")
+// var f = ins.charAt(e)
+// var g = ins.indexOf("@")
+// var h = ins.charAt(g)
+
+// if (b === "!") {
+//     alert("change it  @ , . ! in ur username")
+// }
+//   else if
+//     (d === ",") {
+//     alert("change it  @ , . ! in ur username")
+// }
+//     else if
+// (f === ".") {
+//     alert("change it  @ , . ! in ur username")
+// }
+//         else if
+// (h === "@") {
+//     alert("change it dont use @ , . ! in ur username")
+// }
+// else alert ("your username is ok")
+
+// Answer no 14  
+
+// var city = prompt("enter ")
+// city = city.toLowerCase()
+// console.log(city)
+// var arr = ["cake", "applepie", "cookies", "chips", "patties"]
+//  var h = arr.indexOf(city)
+// for (var i = 0; i < arr.length; i++) {
+//     if (arr[i] === city)  alert(city + " is available at  in our bakery at index : " + h)     
+// else alert("sorry " + city + " isnt available in our bakery ")    
+// break;  } 
+
+// Answer no 15 
+// var  pass= prompt("Enter ur password")
+
+
+// Answer no 16 
+// var uni="university of karachi"
+// for (var i=0; i<uni.length; i++){
+//  document.write( uni.charAt(i) +"<br>" ) }
+
+
+// Answer no 17 
+// var str = window.prompt("PLEASE ENTER A WORD") ; 
+//     var res = str.charAt(str.length-1); 
+//    document.write( "User Input:"+" "+ str +"<br>"+ " Last Index:"+" " +res + "<br>" )
+
+// Answer no 18 
+// var word= "the quick brown fox jumps over the lazy dog"
+// var len= word.match(/the/g);
+// var g=len.length
+// console.log(len)
+// document.write("the word the occured " + g + "times")
